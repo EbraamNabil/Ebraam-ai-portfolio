@@ -432,6 +432,6 @@ class ApiError(Exception):
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", "8000"))
-    server = HTTPServer(("localhost", port), handler)
+    server = HTTPServer(("0.0.0.0", port), handler)
     print(f"Python portfolio API running at http://localhost:{port}/api")
     server.serve_forever()
