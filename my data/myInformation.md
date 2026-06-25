@@ -83,7 +83,7 @@ Technologies Used:
 
 ### AI & Generative AI Intern – Global Brands Group (GBG)
 
-**Duration:** Jun 2026 – Present
+**Duration:** Feb2026 - May 2026 
 
 Responsibilities:
 

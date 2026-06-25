@@ -92,7 +92,7 @@ export const EXPERIENCE = [
   {
     role: "AI & Generative AI Intern",
     company: "Global Brands Group (GBG)",
-    duration: "Jun 2026 - Present",
+    duration: "Feb2026 - May 2026 ",
     location: "Egypt",
     details: [
       "Working on Generative AI applications, RAG systems, and enterprise AI solutions.",
