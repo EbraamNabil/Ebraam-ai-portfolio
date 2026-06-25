@@ -9,9 +9,9 @@ from urllib.parse import parse_qs, urlparse
 from urllib.request import Request, urlopen
 
 PROFILE = {
-    "name": "Khaled Mohamed",
-    "role": "AI Engineer",
-    "email": "devkhaled.ai@gmail.com",
+    "name": "Ebraam Nabil",
+    "role": "AI Engineer | Generative AI & GraphRAG Developer",
+    "email": "ebraamnabil01@gmail.com",
 }
 
 MAX_MESSAGE_LENGTH = 1200
@@ -52,7 +52,7 @@ class handler(BaseHTTPRequestHandler):
         self._send_json(
             {
                 "ok": True,
-                "service": "Khaled Mohamed portfolio API",
+                "service": "Ebraam Mohamed portfolio API",
                 "actions": ["chat", "contact"],
             }
         )
@@ -145,7 +145,7 @@ def chat_agent(payload: dict[str, Any], origin: str | None, host: str | None):
                         "Answer recruiters and HR teams using only the profile context below.",
                         "Be concise, specific, polished, and honest. Prefer concrete project and experience details over generic claims.",
                         "If a question asks for information that is not in the profile, say it is not available in the portfolio context.",
-                        "If the user wants to contact, interview, hire, or email Khaled, tell them the page includes a secure email tool.",
+                        "If the user wants to contact, interview, hire, or email Ebraam, tell them the page includes a secure email tool.",
                         "",
                         "PROFILE CONTEXT:",
                         get_profile_markdown_context()[:MAX_CONTEXT_LENGTH],

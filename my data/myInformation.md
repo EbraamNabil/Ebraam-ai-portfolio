@@ -1,393 +1,360 @@
-# Khaled Mohamed – AI Engineer Profile
+# Ebraam Nabil – AI Engineer Profile
 
 ## Basic Information
 
-- **Full Name:** Khaled Mohamed
-- **Current Role:** AI Engineer
-- **Location:** Alexandria, Egypt
-- **Phone Number:** +201227117525
-- **Email:** devkhaled.ai@gmail.com
-- **GitHub:** github.com/devkhaledai-hub
-- **LinkedIn:** linkedin.com/in/khaled-mohamed-753855284
-- **Military Status:** Exempted
-- **Languages:**
-  - Arabic: Native
-  - English: Excellent
+* **Full Name:** Ebraam Nabil
+* **Current Role:** AI Engineer | Generative AI & GraphRAG Developer
+* **Location:** Menoufia, Egypt
+* **Email:** [ebraamnabil01@gmail.com](mailto:ebraamnabil01@gmail.com)
+* **GitHub:** github.com/EbraamNabil
+* **LinkedIn:** linkedin.com/in/ebraam-nabil
+* **Military Status:** Exempted
+* **Languages:**
+
+  * Arabic: Native
+  * English: Professional Working Proficiency
 
 ## Professional Summary
 
-Khaled Mohamed is an AI Engineer specializing in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), multi-agent systems, and end-to-end AI application development.
+Ebraam Nabil is an AI Engineer specializing in Generative AI, Retrieval-Augmented Generation (RAG), GraphRAG, Knowledge Graphs, and AI Agent Systems.
 
-He has hands-on experience building AI systems that combine:
+He has hands-on experience designing and deploying intelligent AI applications that combine:
 
-- LLM Engineering
-- RAG pipelines
-- Semantic search
-- Multi-agent workflows
-- Backend development
-- AI deployment
-- Cloud-based AI applications
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
+* GraphRAG
+* Knowledge Graphs
+* Multi-Agent Systems
+* FastAPI Backend Development
+* AI Deployment
 
-He has worked with technologies including Python, FastAPI, Docker, Google Cloud Platform, LangChain, LangGraph, Google ADK, ChromaDB, Hugging Face, PyTorch, and TensorFlow.
+His primary focus is building production-ready AI solutions that solve real-world business problems.
+
+Technologies frequently used include:
+
+* Python
+* FastAPI
+* LangChain
+* LangGraph
+* CrewAI
+* Neo4j
+* Azure OpenAI
+* OpenAI APIs
+* MongoDB
+* Qdrant
+* FAISS
+* ChromaDB
 
 ## Education
 
-### Alexandria University
+### Faculty of Electronic Engineering, Menoufia University
 
-**Degree:** B.Sc. in Software Industry and Multimedia  
-**Graduation Year:** 2025  
-**GPA:** 3.7  
-**Grade:** Excellent with Honors  
+**Degree:** B.Sc. in Electronics and Electrical Communications Engineering
 
-### Graduation Project: Dwa2y
+**Graduation Year:** 2025
 
-Dwa2y is a cross-platform mobile donation platform for medicines and medical equipment.
+**Academic Achievement:** Ranked 2nd in Class
 
-The application allows users to donate or request:
+### Graduation Project: Smart Wheelchair
 
-- Medicines
-- Wheelchairs
-- Oxygen tanks
-- Medical equipment
+AI-powered intelligent wheelchair designed to assist people with mobility challenges.
 
-It also supports international medicine requests.
+Features:
 
-**Technologies Used:**
+* Autonomous navigation
+* Computer vision integration
+* IoT-based health monitoring
+* GPS tracking
+* Emergency alert system
+* Flutter mobile application
+* Voice control
+* Bluetooth communication
 
-- Node.js
-- Flutter
-- MongoDB
-- Mongoose
+Technologies Used:
+
+* Python
+* OpenCV
+* Arduino
+* Flutter
+* IoT Sensors
+* GPS Modules
 
 ## Work Experience
 
-### AI Engineer – Areeb Technology
+### AI & Generative AI Intern – Global Brands Group (GBG)
 
-**Duration:** Feb 2026 – May 2026  
-**Type:** Internship  
-**Location:** Cairo, Egypt – Hybrid  
-
-Responsibilities and projects:
-
-- Built AI-driven solutions and end-to-end intelligent systems.
-- Worked on **Semantrix**, a production-style Learning-to-Rank search engine.
-- Implemented a two-stage retrieval and re-ranking pipeline.
-- Used **Tantivy** for first-pass retrieval.
-- Used **LightGBM LambdaRank** for final relevance ranking.
-- Integrated **SentenceTransformers MiniLM embeddings** for semantic similarity.
-- Used **Modal** for serverless GPU-backed inference and training workflows.
-- Worked on image-based search using **DINO**.
-- Created a **Deep Search MCP backend for LibreChat**.
-- Built MCP tools for:
-  - Web search
-  - Paper search
-  - Page fetching
-  - PDF fetching
-  - Batch search
-  - Batch fetch
-  - Email delivery
-  - PDF creation
-- Supported a LibreChat multi-agent deep-search workflow including:
-  - Router Agent
-  - Planner Agent
-  - Research Worker Agent
-  - Writer Agent
-  - Tool Selector Agent
-
-### Artificial Intelligence Trainee – National Telecommunication Institute NTI
-
-**Duration:** Oct 2025 – Jan 2026  
-**Program:** Ready to Hire AI Diploma / HireReady AI Track  
-**Training Hours:** 540+ hours  
-
-Focus areas:
-
-- Artificial Intelligence
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- NLP
-- Data Science
-- AI deployment
-- Cloud integration
-
-Hands-on technologies:
-
-- Python
-- TensorFlow
-- Keras
-- PyTorch
-- Data preprocessing
-- Model development
-- Deployment workflows
-
-### Final Project: AI Competition Judgment
-
-A Streamlit application for evaluating hackathon or startup competition submissions.
-
-The system included:
-
-- YOLO pose-based body-language analysis
-- Speech transcription
-- Pitch-content evaluation
-- Visual analysis
-- SQLite storage
-- PDF report generation
-- ChromaDB indexing
-- RAG assistant for previous team evaluations
-
-Achievement:
-
-- Completed the NTI Artificial Intelligence Track with a score of **95%**.
-
-### Backend Developer Intern – Numinix / Lexmodo
-
-**Duration:** Mar 2025 – Sep 2025  
-**Location:** Alexandria, Egypt  
+**Duration:** Jun 2026 – Present
 
 Responsibilities:
 
-- Developed backend services using **Go / Golang**.
-- Worked on the Lexmodo e-commerce platform.
-- Contributed to a custom admin panel.
-- Performed QA and QC on e-commerce platforms.
-- Wrote professional documentation and README files.
-- Tested and contributed to live websites.
+* Developing Generative AI applications.
+* Building RAG-powered intelligent assistants.
+* Working on enterprise AI solutions.
+* Designing AI workflows for business use cases.
 
-Live websites worked on:
+### Artificial Intelligence Trainee – National Telecommunication Institute (NTI)
 
-- admin.lexmodo.com
-- bestprolighting.com
-- upscalemenswear.com
-- radiogagas.com
+**Duration:** 2025 – 2026
 
-### IBM Data Science Track – DEPI
+Program:
 
-**Duration:** Oct 2024 – May 2025  
+Ready to Hire Artificial Intelligence Track
 
-Experience:
+Focus Areas:
 
-- Worked with IBM tools for machine learning.
-- Practiced exploratory data analysis and visualization.
-- Participated in data science projects.
-- Achieved **1st place** in the program’s Final Project Competition.
+* Machine Learning
+* Deep Learning
+* Computer Vision
+* NLP
+* Generative AI
+* AI Deployment
 
-### IT Internship – Talaat Mostafa Group
+Achievements:
 
-**Duration:** Jul 2024 – Aug 2024  
+* Built multiple end-to-end AI projects.
+* Developed practical RAG and Agentic AI systems.
+* Completed intensive AI training program.
 
-Responsibilities:
+### Software Development Trainee – Information Technology Institute (ITI)
 
-- Provided IT support.
-- Performed diagnostics.
-- Assisted in maintaining infrastructure systems.
+**Duration:** Jul 2024 – Aug 2024
 
-### Hybrid AI Internship – Zewail City of Science and Technology
+Focus Areas:
 
-**Duration:** Aug 2023  
-
-Focus:
-
-- Advanced AI training
-- Real-world AI applications
-- Model design
+* Object-Oriented Programming (OOP)
+* Software Engineering Fundamentals
+* Flutter Development
+* Mobile Application Development
 
 ## Projects
 
-### GCP Content Creator Agent
+### WorkLaw Copilot
 
-A multi-agent content creation system powered by:
-
-- Google ADK
-- Gemini
-- React
-- FastAPI
-- Cloud Run
-- Vertex AI
-- Agent Platform Runtime
-
-Features:
-
-- Master orchestrator agent
-- Content generation workflow
-- Text analysis workflow
-- Topic research agents
-- Content drafting agents
-- Quality checking agents
-- Content improvement agents
-- Blog post generation
-- Social media content generation
-- Email newsletter generation
-- SEO metadata generation
-- Text analysis agents
-
-Deployment:
-
-- React frontend
-- FastAPI backend
-- Docker container
-- Cloud Run
-- Google Cloud Agent Platform Runtime
-
-### AI Deal-Finding System
-
-An autonomous AI system for real-time e-commerce deal ranking and price estimation.
+Production-ready Arabic Legal AI Assistant powered by GraphRAG.
 
 Technologies:
 
-- RAG
-- ChromaDB
-- Llama
-- PyTorch
-- Modal
+* Neo4j
+* Azure OpenAI
+* FastAPI
+* Streamlit
+* LangChain
 
 Features:
 
-- Deal scanning
-- Product price estimation
-- Deal ranking
-- Structured validation
-- Instant alert notifications
+* GraphRAG Architecture
+* Hybrid Retrieval
+* Legal Knowledge Graph
+* Source-Grounded Responses
+* Explainable Legal Reasoning
+* Explicit Legal Article Routing
 
-### Horus AI
+### AI Procurement Agent System
 
-An AI-powered Ancient Egypt artifact explorer and guide.
+Multi-Agent procurement platform that automates supplier research and procurement workflows.
 
 Features:
 
-- Artifact image classification using deep learning
-- AI-generated historical descriptions
-- Personalized tourism recommendations
-- Smart AI assistant powered by Google Gemini
+* Supplier discovery
+* Product research
+* Procurement analysis
+* Automated reporting
+* Multi-agent collaboration
 
 Technologies:
 
-- Python
-- Flask
-- Keras
-- Google Gemini API
+* CrewAI
+* LangGraph
+* FastAPI
+* OpenAI
+* Python
+
+### CV-RAG Hiring Assistant
+
+AI-powered recruitment assistant.
+
+Features:
+
+* Candidate evaluation
+* Semantic retrieval
+* CV analysis
+* Ranking and recommendation
+
+Technologies:
+
+* LangChain
+* FAISS
+* Embeddings
+* Python
+
+### AI Startup Decision System
+
+Multi-Agent startup evaluation platform.
+
+Features:
+
+* GO / NO-GO recommendations
+* Business analysis
+* Investment evaluation
+* Iterative reasoning
+
+Technologies:
+
+* Agents
+* LLMs
+* LangGraph
+* FastAPI
+
+### CV Intelligence RAG (Azure)
+
+Enterprise-grade Azure AI Search pipeline.
+
+Features:
+
+* Embeddings
+* Retrieval
+* Azure AI Search
+* Azure OpenAI Integration
+
+### Mini RAG Platform
+
+End-to-end Retrieval-Augmented Generation platform.
+
+Features:
+
+* Document ingestion
+* Chunking
+* Embedding generation
+* Semantic retrieval
+* Vector storage
+
+Technologies:
+
+* FastAPI
+* MongoDB
+* Qdrant
+* Cohere
 
 ## Technical Skills
 
 ### Programming Languages
 
-- Python
-- Node.js
-- Go
-- JavaScript
-- Java
-- C++
-- SQL
+* Python
+* SQL
+* JavaScript
+* C++
+* Dart
 
-### AI & Deep Learning
+### Generative AI
 
-- TensorFlow
-- PyTorch
-- Hugging Face Transformers
-- QLoRA Fine-tuning
-
-### LLM Engineering
-
-- Retrieval-Augmented Generation
-- Embeddings
-- Vector Databases
-- Prompt Engineering
-- LLM Integration
-- LLM Deployment
+* RAG
+* GraphRAG
+* Prompt Engineering
+* LLM Applications
+* Embeddings
+* Vector Databases
 
 ### Agentic AI
 
-- LangChain
-- LangGraph
-- CrewAI
-- OpenAI Agents SDK
-- MCP
-- Google ADK
+* LangChain
+* LangGraph
+* CrewAI
+* Multi-Agent Systems
 
-### Data Science
+### Machine Learning & Deep Learning
 
-- Pandas
-- NumPy
-- Scikit-learn
-- Seaborn
-- MATLAB
+* TensorFlow
+* PyTorch
+* Scikit-Learn
+* Computer Vision
+* NLP
+* Transformers
 
-### Data Engineering
+### Backend Development
 
-- Data Warehousing
-- ETL
-- SSIS
-- Star Schema
-- Snowflake Schema
-
-### Backend & MLOps
-
-- FastAPI
-- gRPC
-- Docker
-- REST APIs
+* FastAPI
+* REST APIs
+* Docker
 
 ### Databases
 
-- MySQL
-- PostgreSQL
-- MongoDB
-- SQLite
-- ChromaDB
+* Neo4j
+* MongoDB
+* Qdrant
+* ChromaDB
+* FAISS
 
-### Cloud & Platforms
+### Cloud & AI Platforms
 
-- Google Cloud Platform
-- Modal
-- HCCDAI
+* Azure OpenAI
+* OpenAI API
 
 ### Visualization
 
-- Power BI
-- Tableau
-- Streamlit
+* Power BI
+* Tableau
+* Streamlit
 
 ### Tools
 
-- GitHub
-- Bitbucket
-- Postman
+* Git
+* GitHub
+* Postman
+* VS Code
 
 ## Certifications
 
-### Artificial Intelligence Track – NTI
+### NTI Artificial Intelligence Track
 
-- Completed 540-hour Artificial Intelligence Track.
-- Achieved a score of 95%.
+Comprehensive Artificial Intelligence training program covering:
 
-### Microsoft Power BI Desktop for Business Intelligence
+* Machine Learning
+* Deep Learning
+* NLP
+* Computer Vision
+* Generative AI
 
-- Issued by Udemy / Maven Analytics.
-- Credential ID: UC-5219618d-503f-45cb-ac9a-67cd5414ebac
+### Neo4j GraphAcademy
 
-## Competitions
+Completed certifications in:
 
-- Participated in ECPC qualification representing Alexandria University.
-- Achieved 1st place in DEPI Final Project Competition.
+* Neo4j Fundamentals
+* Graph Data Modeling
+* Cypher Query Language
+* GraphRAG Concepts
 
-## Volunteering
+### Huawei HCIA-AI
 
-### Alpha Leo Club – Charity Member
+Artificial Intelligence Certification.
 
-Contributed to youth-led community service and charitable initiatives supporting underprivileged communities.
+### NVIDIA AI Certifications
+
+Training in Deep Learning and AI technologies.
 
 ## Professional Interests
 
-Khaled’s main professional interests include:
+Ebraam's primary interests include:
 
-- LLM Engineering
-- Agentic AI Systems
-- Multi-Agent Workflows
-- RAG Systems
-- AI Deployment
-- Cloud AI Infrastructure
-- Semantic Search
-- Learning-to-Rank Systems
-- Google Cloud AI
-- AI Product Engineering
-- AI Research Applications
+* Generative AI
+* GraphRAG
+* Knowledge Graphs
+* AI Agents
+* Retrieval-Augmented Generation
+* LLM Engineering
+* Enterprise AI Solutions
+* AI Product Development
+* Intelligent Assistants
+* Applied Artificial Intelligence
+
+## Important Hiring Notes
+
+If a recruiter asks why Ebraam should be hired:
+
+* Ranked 2nd in his graduating class.
+* Strong hands-on experience with Generative AI.
+* Practical GraphRAG and Neo4j experience.
+* Built multiple production-style AI projects.
+* Strong foundation in AI Engineering and deployment.
+* Experienced with modern AI frameworks and tools.
+* Passionate about solving real-world business problems using AI.
+س

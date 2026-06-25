@@ -12,12 +12,16 @@ const navigation = [
 ];
 
 const quickPrompts = [
-  "What makes Khaled strong for an AI Engineer role?",
+  "What makes Ebraam strong for an AI Engineer role?",
   "Summarize his best LLM and RAG projects.",
   "What backend and cloud experience does he have?",
 ];
 
 const CONFIGURED_PYTHON_API_BASE = process.env.NEXT_PUBLIC_PYTHON_API_URL ?? "/api";
+
+console.log("API URL =", process.env.NEXT_PUBLIC_PYTHON_API_URL);
+console.log("CONFIGURED =", CONFIGURED_PYTHON_API_BASE);
+console.log("REAL API =", getPythonApiBase());
 
 function apiEndpoint(action: "chat" | "contact") {
   const base = getPythonApiBase();
@@ -26,17 +30,6 @@ function apiEndpoint(action: "chat" | "contact") {
 }
 
 function getPythonApiBase() {
-  if (typeof window === "undefined") {
-    return CONFIGURED_PYTHON_API_BASE;
-  }
-
-  const isLocalPage = ["localhost", "127.0.0.1"].includes(window.location.hostname);
-  const pointsToLocalApi = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/?/i.test(CONFIGURED_PYTHON_API_BASE);
-
-  if (!isLocalPage && pointsToLocalApi) {
-    return "/api";
-  }
-
   return CONFIGURED_PYTHON_API_BASE;
 }
 
@@ -65,7 +58,7 @@ export default function Home() {
         <title>{`${PROFILE.name} | AI Engineer Portfolio`}</title>
         <meta
           name="description"
-          content="Creative AI Engineer portfolio for Khaled Mohamed, focused on LLM engineering, RAG, agentic systems, search, backend AI, and deployment."
+          content="Creative AI Engineer portfolio for Ebraam Mohamed, focused on LLM engineering, RAG, agentic systems, search, backend AI, and deployment."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -131,13 +124,10 @@ function Hero() {
       <div className="mx-auto flex min-h-[calc(100vh-80px)] max-w-7xl items-center px-5 py-16 lg:px-8">
         <div className="max-w-4xl">
           <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] text-white sm:text-7xl lg:text-8xl">
-            Khaled Mohamed
+            {PROFILE.name}
           </h1>
           <p className="mt-7 max-w-3xl text-lg leading-8 text-[#b9c9c1] sm:text-xl">
-            AI Engineer specializing in Large Language Models, Retrieval-Augmented Generation, and multi-agent systems.
-            Experienced in building end-to-end AI applications from data processing to deployment using Python, FastAPI,
-            Docker, and modern machine learning frameworks. Strong background in NLP and multimodal systems, with
-            hands-on exposure to Google Cloud Platform.
+            {PROFILE.summary}
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -147,6 +137,14 @@ function Hero() {
             >
               Explore projects
             </a>
+            <a
+                href="/Ebraam Nabil Georgy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border border-[#7df6dd]/50 bg-[#7df6dd]/10 px-5 py-3 text-sm font-semibold text-[#7df6dd] transition hover:bg-[#7df6dd] hover:text-[#04100c]"
+              >
+                Download CV
+              </a>
             <a
               href="#assistant"
               className="rounded-md border border-white/18 bg-white/[0.04] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#7df6dd]/60 hover:bg-[#7df6dd]/10"
@@ -210,10 +208,10 @@ function ExperienceSection() {
           <div>
             <p className="section-kicker">Trajectory</p>
             <h2 className="mt-4 text-4xl font-semibold leading-tight text-white sm:text-5xl">
-              AI work connected to backend delivery.
+              Building AI Solutions.
             </h2>
             <p className="mt-5 leading-8 text-[#aebdb6]">
-              A timeline across applied AI, search, agent tooling, backend systems, data science, and delivery discipline.
+              A journey through AI training, internships, and real-world projects focused on Generative AI, RAG, GraphRAG, and intelligent systems.
             </p>
           </div>
 
@@ -300,7 +298,7 @@ function AssistantSection() {
       <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.82fr_1.18fr]">
         <div>
           <p className="section-kicker text-[#087968]">Contact channel</p>
-          <h2 className="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">Send Khaled a message.</h2>
+          <h2 className="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">Send Ebraam a message . </h2>
           <p className="mt-5 max-w-2xl leading-8 text-[#39463f]">
             Recruiter links and role details are routed cleanly alongside the portfolio.
           </p>
@@ -314,7 +312,7 @@ function AssistantSection() {
             >
               <span className="font-mono text-xs uppercase text-[#087968]">Repository signal</span>
               <strong className="mt-2 block text-lg text-[#07100c]">GitHub portfolio</strong>
-              <span className="mt-2 block text-sm text-[#3b4a42]">github.com/devkhaledai-hub</span>
+              <span className="mt-2 block text-sm text-[#3b4a42]">github.com/EbraamNabil</span>
             </a>
             <a
               href={PROFILE.linkedIn}
@@ -324,7 +322,7 @@ function AssistantSection() {
             >
               <span className="font-mono text-xs uppercase text-[#087968]">Career profile</span>
               <strong className="mt-2 block text-lg text-[#07100c]">LinkedIn</strong>
-              <span className="mt-2 block text-sm text-[#3b4a42]">linkedin.com/in/khaled-mohamed-753855284</span>
+              <span className="mt-2 block text-sm text-[#3b4a42]">linkedin.com/in/ebraam-nabil</span>
             </a>
           </div>
         </div>
@@ -557,7 +555,7 @@ function FloatingRobot({ onOpenChat }: { onOpenChat: () => void }) {
   return (
     <button
       type="button"
-      aria-label="Open Khaled portfolio chatbot"
+      aria-label="Open Ebraam portfolio chatbot"
       onClick={openChatbot}
       className="robot-guide group fixed right-1 z-50 grid size-[142px] place-items-center bg-transparent transition-transform duration-300 hover:scale-105 sm:right-4 sm:size-[188px]"
       style={{ top: `calc(90px + ${robotOffset}px)` }}
@@ -575,7 +573,7 @@ function ChatAssistant({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
     {
       role: "assistant",
       content:
-        "I am ready. Ask about Khaled's RAG systems, agent workflows, backend experience, projects, or hiring fit.",
+        "I am ready. Ask about Ebraam's RAG systems, agent workflows, backend experience, projects, or hiring fit.",
     },
   ]);
   const [draft, setDraft] = useState("");
@@ -659,7 +657,7 @@ function ChatAssistant({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
       <div className="flex items-start justify-between gap-4 border-b border-white/10 pb-4">
         <div>
           <p className="font-mono text-xs uppercase text-[#7df6dd]">portfolio.ai</p>
-          <h3 className="mt-1 text-2xl font-semibold">Khaled screening console</h3>
+          <h3 className="mt-1 text-2xl font-semibold">Ebraam screening console</h3>
         </div>
         <div className="flex gap-2">
           <button
@@ -716,7 +714,7 @@ function ChatAssistant({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
           <div className="mb-5 flex items-start justify-between gap-3">
             <div>
               <p className="font-mono text-xs uppercase text-[#087968]">Email</p>
-              <h4 className="mt-1 text-xl font-semibold">Send Khaled a message</h4>
+              <h4 className="mt-1 text-xl font-semibold">Send Ebraam a message</h4>
             </div>
             <button
               type="button"
@@ -790,7 +788,7 @@ function ContactForm({ compact = false, source }: { compact?: boolean; source: s
 
       form.reset();
       setStatus("sent");
-      setFeedback("Message sent. Khaled will receive it by email.");
+      setFeedback("Message sent. Ebraam will receive it by email.");
     } catch (error) {
       setStatus("error");
       setFeedback(error instanceof Error ? error.message : "Message could not be sent.");
